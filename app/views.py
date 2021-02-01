@@ -19,7 +19,7 @@ def index(request):
     services = Service.objects.all()
     frontadmins = Frontadmin.objects.all()
     context = {'frontadmins':frontadmins,'services':services,'blog':blog,'testomonial':testomonial}
-    return render(request,'index.html',context)
+    return render(request,"index.html",context)
 
 def about(request):
     testomonial = Testomonial.objects.all()
