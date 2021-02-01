@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>admin Login</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/adminstyle.css'%}">
+</head>
+<body>
+	<div class="login-form">
+		<!--<label class="switch">
+		  <input type="checkbox">
+		  <span class="slider round"></span>
+		</label>-->
+		<div class="logo"></div>
+		<div class="title">Go Admin</div>
+		<div class="sub-title">Backend login here</div>
+		<form action="/admin/login/?next=/admin/" method="post">
+		{% csrf_token %}
+			<div class="box">
+				<input type="text" name="username" class="username" placeholder="Type your username here" required>
+				<input type="password" name="password" class="password" placeholder="Type your password here" required>
+			</div>
+			<button class="signin-button">Login</button>
+		</form>
+
+	</div>
+</body>
+</html>

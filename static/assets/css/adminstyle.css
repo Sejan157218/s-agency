@@ -1,0 +1,67 @@
+#header {
+    background: #006203;
+    color: #ffffff;
+}
+
+#branding h1{
+    color: #ffffff;
+}
+div.breadcrumbs {
+    background: #2b6f3d;
+}
+
+.login .submit-row {
+    clear: both;
+    padding:0 !important;
+}
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+    width: 100%;
+    background: #1e5d27;
+}
+.button:active, input[type=submit]:active, input[type=button]:active, .button:focus, input[type=submit]:focus, input[type=button]:focus, .button:hover, input[type=submit]:hover, input[type=button]:hover {
+    background: #043808;
+}
+
+.module h2, .module caption, .inline-group h2 {
+
+    background: #006203;
+
+}
+
+a:link, a:visited {
+    color: #006203;
+    text-decoration: none;
+}
+#content-related .module h2 {
+    color:#006203;
+}
+#content-related h3 {
+    color: #006203;
+
+}
+a:focus, a:hover {
+    color: #37782C;
+}
+
+h1 {
+    color: #006203;
+}
+.dashboard #content {
+    width: 1000px;
+}
+
+.button.default, input[type=submit].default, .submit-row input.default {
+    float: right;
+    border: none;
+    font-weight: 400;
+    background: #1e5d27;
+}
+.button.default:active, input[type=submit].default:active, .button.default:focus, input[type=submit].default:focus, .button.default:hover, input[type=submit].default:hover {
+    background: #033e0c;
+}
+
+
+.submit-row a.deletelink {
+    width: 910px;
+    text-align: center;
+}
